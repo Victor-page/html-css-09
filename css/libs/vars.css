@@ -1,0 +1,9 @@
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --extra-font: "Roboto", sans-serif;
+  --white-color: rgb(255, 255, 255);
+  --main-text-color: rgb(102, 102, 102);
+  --title-text-color: rgb(51, 51, 51);
+  --button-color: rgb(255, 78, 80);
+  font-size: 62.5%;
+}

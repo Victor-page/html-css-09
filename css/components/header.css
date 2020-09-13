@@ -1,0 +1,83 @@
+.background-wrapper {
+  min-height: 54rem;
+  padding-top: 2rem;
+  background-color: rgb(26, 25, 21);
+  background-image: url(../../img/photos/partners.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 46.75em) {
+  .page-header .row:first-child {
+    margin: 0 0 3.5rem 0;
+  }
+
+  .page-header .col-12:first-child {
+    margin: 0 0 11.3rem 0;
+  }
+}
+
+.header-buttons {
+  margin: 0;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo-link img {
+  margin: 0 auto;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.starting-title {
+  margin: 0 0 1.5rem 0;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.starting-text {
+  margin: 0 0 1.7rem 0;
+  padding: 0 4.1rem;
+  font-family: var(--extra-font);
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: var(--white-color);
+  text-align: center;
+}
+
+@media (min-width: 46.75em) {
+  .background-wrapper {
+    min-height: 70rem;
+  }
+
+  .page-header .row:first-child {
+    margin: 0 0 14.8rem 0;
+  }
+
+  .starting-wrapper {
+    max-width: 50.3rem;
+    margin: 0 auto;
+  }
+
+  .starting-title {
+    margin: 0 0 3.5rem 0;
+    font-size: 5.2rem;
+  }
+
+  .starting-text {
+    margin: 0 0 3.2rem 0;
+    font-size: 2.4rem;
+  }
+}
